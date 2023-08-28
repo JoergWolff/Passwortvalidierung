@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ba07b3-c4f5-4208-a4a3-aa46f2dbfeda" name="Changes" comment="change dependencies of junit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="65ba07b3-c4f5-4208-a4a3-aa46f2dbfeda" name="Changes" comment="add validation uppercase">
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
@@ -59,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.returnTrue_whenPasswordMatchesWithUpperCase">
+  <component name="RunManager" selected="JUnit.MainTest.returnFalse_whenPasswordMatchesWithNoLowerCase">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Passwortvalidierung" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,11 +68,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.returnFalse_whenPasswordMatchesWithNoDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.returnFalse_whenPasswordMatchesWithNoLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Passwortvalidierung" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="returnFalse_whenPasswordMatchesWithNoDigit" />
+      <option name="METHOD_NAME" value="returnFalse_whenPasswordMatchesWithNoLowerCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.returnTrue_whenPasswordMatchesWithDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.returnTrue_whenPasswordMatchesWithLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Passwortvalidierung" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="returnTrue_whenPasswordMatchesWithDigit" />
+      <option name="METHOD_NAME" value="returnTrue_whenPasswordMatchesWithLowerCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.returnFalse_whenPasswordMatchesWithNoLowerCase" />
+        <item itemvalue="JUnit.MainTest.returnTrue_whenPasswordMatchesWithLowerCase" />
         <item itemvalue="JUnit.MainTest.returnTrue_whenPasswordMatchesWithUpperCase" />
         <item itemvalue="JUnit.MainTest.returnFalse_whenPasswordMatchesWithNoUpperCase" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.returnFalse_whenPasswordMatchesWithNoDigit" />
-        <item itemvalue="JUnit.MainTest.returnTrue_whenPasswordMatchesWithDigit" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693208919334</updated>
-      <workItem from="1693208920731" duration="5532000" />
+      <workItem from="1693208920731" duration="5977000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -153,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693212978017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add validation uppercase">
+      <option name="closed" value="true" />
+      <created>1693215122039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693215122039</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="add Validation Length and Digit" />
     <MESSAGE value="change dependencies of junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dependencies of junit" />
+    <MESSAGE value="add validation uppercase" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validation uppercase" />
   </component>
 </project>

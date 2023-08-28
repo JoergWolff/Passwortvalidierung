@@ -5,6 +5,27 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
+    void returnTrue_whenPasswordMatchesWithLowerCase(){
+        // Given
+        String pswd = "Hallo67ali";
+        // When
+        boolean actual = Main.validateLowerCase(pswd);
+        boolean expected = true;
+        // Then
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void returnFalse_whenPasswordMatchesWithNoLowerCase(){
+        // Given
+        String pswd = "HALLILOLA";
+        // When
+        boolean actual = Main.validateLowerCase(pswd);
+        boolean expected = false;
+        // Then
+        assertEquals(expected, actual);
+    }
+    @Test
     void returnTrue_whenPasswordMatchesWithUpperCase(){
         // Given
         String pswd = "Hallo67ali";

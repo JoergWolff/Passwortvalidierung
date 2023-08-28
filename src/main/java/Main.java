@@ -3,6 +3,10 @@ public class Main {
         System.out.println("Passwortvalidierung:");
     }
 
+    public static boolean validateLowerCase(String pswd) {
+        return pswd.matches(".*[a-z].*");
+    }
+
     public static boolean validateUpperCase(String pswd) {
         return pswd.matches(".*[A-Z].*");
     }
