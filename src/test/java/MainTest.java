@@ -1,7 +1,30 @@
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
+
+    @Test
+    void returnTrue_whenPasswordMatchesWithUpperCase(){
+        // Given
+        String pswd = "Hallo67ali";
+        // When
+        boolean actual = Main.validateUpperCase(pswd);
+        boolean expected = true;
+        // Then
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void returnFalse_whenPasswordMatchesWithNoUpperCase(){
+        // Given
+        String pswd = "hallo67ali";
+        // When
+        boolean actual = Main.validateUpperCase(pswd);
+        boolean expected = false;
+        // Then
+        assertEquals(expected, actual);
+    }
 
     @Test
     void returnTrue_whenPasswordMatchesWithDigit() {
@@ -12,7 +35,6 @@ class MainTest {
         boolean expected = true;
         // Then
         assertEquals(expected, actual);
-
     }
 
     @Test
@@ -24,7 +46,6 @@ class MainTest {
         boolean expected = false;
         // Then
         assertEquals(expected, actual);
-
     }
 
     @Test
@@ -36,8 +57,8 @@ class MainTest {
         boolean expected = true;
         // Then
         assertEquals(expected, actual);
-
     }
+
     @Test
     void returnFalse_whenPasswordLengthSmallerThan8() {
         // Given
@@ -47,6 +68,5 @@ class MainTest {
         boolean expected = false;
         // Then
         assertEquals(expected, actual);
-
     }
 }
