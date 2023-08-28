@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ba07b3-c4f5-4208-a4a3-aa46f2dbfeda" name="Changes" comment="add validation uppercase">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="65ba07b3-c4f5-4208-a4a3-aa46f2dbfeda" name="Changes" comment="add validation lowercase" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693208919334</updated>
-      <workItem from="1693208920731" duration="5977000" />
+      <workItem from="1693208920731" duration="6426000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -160,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693215122039</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add validation lowercase">
+      <option name="closed" value="true" />
+      <created>1693215479239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693215479239</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +176,7 @@
     <MESSAGE value="add Validation Length and Digit" />
     <MESSAGE value="change dependencies of junit" />
     <MESSAGE value="add validation uppercase" />
-    <option name="LAST_COMMIT_MESSAGE" value="add validation uppercase" />
+    <MESSAGE value="add validation lowercase" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validation lowercase" />
   </component>
 </project>
