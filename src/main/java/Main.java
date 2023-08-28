@@ -1,13 +1,26 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Passwortvalidierung:");
+        System.out.println("Password Validation:");
+        System.out.println("----");
+        System.out.println("Generated: " + generatePassword(16));
+    }
+
+    public static String generatePassword(int length) {
+        String character = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?*+#";
+        char[] chars = character.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            int counter = (int) (Math.random() * chars.length);
+            sb.append(chars[counter]);
+        }
+        return sb.toString();
     }
 
     public static boolean validateSpecialCharacter(String pswd, char[] specialCharacters) {
         boolean returnBoolean = false;
-        for(char sign : pswd.toCharArray()){
-            for(char specialCharacter : specialCharacters){
-                if (sign == specialCharacter){
+        for (char sign : pswd.toCharArray()) {
+            for (char specialCharacter : specialCharacters) {
+                if (sign == specialCharacter) {
                     returnBoolean = true;
                     break;
                 }
