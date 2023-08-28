@@ -3,6 +3,17 @@ public class Main {
         System.out.println("Passwortvalidierung:");
     }
 
+    public static boolean validateBadPassword(String pswd,String[] badpswds) {
+        boolean returnBoolean = false;
+        for(String  badpswd : badpswds){
+            if(pswd.equals(badpswd)){
+                returnBoolean = true;
+                break;
+            }
+        }
+        return returnBoolean;
+    }
+
     public static boolean validateLowerCase(String pswd) {
         return pswd.matches(".*[a-z].*");
     }

@@ -5,6 +5,18 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
+    void returnTrue_whenPasswordMatchesWithBadPassword(){
+        // Given
+        String pswd = "password";
+        String[] badpswds = {"12345678", "password"};
+        // When
+        boolean actual = Main.validateBadPassword(pswd, badpswds);
+        boolean expected = true;
+        // Then
+        assertEquals(expected, actual);
+    }
+
+    @Test
     void returnTrue_whenPasswordMatchesWithLowerCase(){
         // Given
         String pswd = "Hallo67ali";
