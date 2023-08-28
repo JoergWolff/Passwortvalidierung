@@ -3,9 +3,21 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
+    @Test
+    void returnTrue_whenPasswordMatchesWith() {
+        // [@#$%^&+=]
+        // Given
+        String pswd = "F45&pt5d";
+        char[] specialCharacters = {'@', '$', '%', '°', '&', '!', '+', '*', '/',};
+        // When
+        boolean actual = Main.validateSpecialCharacter(pswd, specialCharacters);
+        boolean expected = true;
+        // Then
+        assertEquals(expected, actual);
+    }
 
     @Test
-    void returnTrue_whenPasswordMatchesWithBadPassword(){
+    void returnTrue_whenPasswordMatchesWithBadPassword() {
         // Given
         String pswd = "password";
         String[] badpswds = {"12345678", "password"};
@@ -17,7 +29,7 @@ class MainTest {
     }
 
     @Test
-    void returnTrue_whenPasswordMatchesWithLowerCase(){
+    void returnTrue_whenPasswordMatchesWithLowerCase() {
         // Given
         String pswd = "Hallo67ali";
         // When
@@ -28,7 +40,7 @@ class MainTest {
     }
 
     @Test
-    void returnFalse_whenPasswordMatchesWithNoLowerCase(){
+    void returnFalse_whenPasswordMatchesWithNoLowerCase() {
         // Given
         String pswd = "HALLILOLA";
         // When
@@ -37,8 +49,9 @@ class MainTest {
         // Then
         assertEquals(expected, actual);
     }
+
     @Test
-    void returnTrue_whenPasswordMatchesWithUpperCase(){
+    void returnTrue_whenPasswordMatchesWithUpperCase() {
         // Given
         String pswd = "Hallo67ali";
         // When
@@ -49,7 +62,7 @@ class MainTest {
     }
 
     @Test
-    void returnFalse_whenPasswordMatchesWithNoUpperCase(){
+    void returnFalse_whenPasswordMatchesWithNoUpperCase() {
         // Given
         String pswd = "hallo67ali";
         // When

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ba07b3-c4f5-4208-a4a3-aa46f2dbfeda" name="Changes" comment="add CI to project">
+    <list default="true" id="65ba07b3-c4f5-4208-a4a3-aa46f2dbfeda" name="Changes" comment="add method validateBadPassword()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
@@ -59,7 +59,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.returnTrue_whenPasswordMatchesWithBadPassword">
+  <component name="RunManager" selected="JUnit.MainTest.returnTrue_whenPasswordMatchesWith">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Passwortvalidierung" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.returnFalse_whenPasswordMatchesWithNoLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Passwortvalidierung" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,6 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.returnTrue_whenPasswordMatchesWith" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Passwortvalidierung" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="returnTrue_whenPasswordMatchesWith" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.returnTrue_whenPasswordMatchesWithBadPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Passwortvalidierung" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,33 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.returnTrue_whenPasswordMatchesWithLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Passwortvalidierung" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="returnTrue_whenPasswordMatchesWithLowerCase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.returnTrue_whenPasswordMatchesWithUpperCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Passwortvalidierung" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="returnTrue_whenPasswordMatchesWithUpperCase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.returnTrue_whenPasswordMatchesWith" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.returnFalse_whenPasswordMatchesWithNoUpperCase" />
         <item itemvalue="JUnit.MainTest.returnTrue_whenPasswordMatchesWithBadPassword" />
         <item itemvalue="JUnit.MainTest.returnFalse_whenPasswordMatchesWithNoLowerCase" />
-        <item itemvalue="JUnit.MainTest.returnTrue_whenPasswordMatchesWithLowerCase" />
-        <item itemvalue="JUnit.MainTest.returnTrue_whenPasswordMatchesWithUpperCase" />
-        <item itemvalue="JUnit.MainTest.returnFalse_whenPasswordMatchesWithNoUpperCase" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693208919334</updated>
-      <workItem from="1693208920731" duration="7994000" />
+      <workItem from="1693208920731" duration="14157000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -178,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693215927567</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add method validateBadPassword()">
+      <option name="closed" value="true" />
+      <created>1693217506201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693217506201</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="add validation uppercase" />
     <MESSAGE value="add validation lowercase" />
     <MESSAGE value="add CI to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CI to project" />
+    <MESSAGE value="add method validateBadPassword()" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method validateBadPassword()" />
   </component>
 </project>
